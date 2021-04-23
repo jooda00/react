@@ -4,6 +4,7 @@ import React from 'react';
 // Hello component 호출해서 사용 import문
 import Hello from "./Hello";
 import Wrapper from "./Wrapper";
+import Counter from "./Counter";
 function App() {
     const name='react';
     const style={
@@ -15,13 +16,7 @@ function App() {
         textAlign:'center'
     }
   return (
-
-    <>
-        <Wrapper>
-            <Hello name={'react1'} color={'blue'} isSpecial/>
-        </Wrapper>
-
-    </>
+      <Counter name={'conuter'}/>
   );
 }
 
