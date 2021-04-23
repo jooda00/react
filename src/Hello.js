@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Hello({color,name}) {
+function Hello({color,name, isSpecial}) {
     return <div style = {{color}}>
-        Hello {name}
+        {isSpecial ? <b>**</b> : null} Hello {name}
     </div>
 }
 

@@ -18,7 +18,7 @@ function App() {
 
     <>
         <Wrapper>
-            <Hello name={'react1'} color={'blue'}/>
+            <Hello name={'react1'} color={'blue'} isSpecial/>
         </Wrapper>
 
     </>
