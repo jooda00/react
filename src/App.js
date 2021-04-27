@@ -4,6 +4,7 @@ import React from 'react';
 // Hello component 호출해서 사용 import문
 import Hello from "./Hello";
 import Wrapper from "./Wrapper";
+import InputSample from "./InputSample";
 import Counter from "./Counter";
 function App() {
     const name='react';
@@ -16,7 +17,7 @@ function App() {
         textAlign:'center'
     }
   return (
-      <Counter name={'conuter'}/>
+      <InputSample/>
   );
 }
 

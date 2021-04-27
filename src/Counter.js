@@ -23,7 +23,7 @@ function Counter({name}) {
             -> 이렇게 되면 console창에서 +1버튼을 클릭안해도 렌더링하면 +1이 나온다.*/}
          <button onClick={onDecrease}>-1</button>
      </div>
-    )
+    );
 }
 
 

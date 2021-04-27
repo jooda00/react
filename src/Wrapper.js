@@ -12,9 +12,7 @@ function Wrapper({children}) {
             {/* children props렌더링 해줘야 Wrapper의 내부 컴포넌트(<Hello../>)가 보임 */}
             {children}
         </div>
-
-    )
-
+    );
 }
 
 
